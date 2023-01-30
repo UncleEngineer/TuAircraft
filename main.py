@@ -322,7 +322,7 @@ while running:
 
 	# ตรวจสอบการชนกันของ Sprite ด้วยฟังชั่น collide
 	collide = pygame.sprite.spritecollide(player, group_enemy, True) 
-	print(collide)
+	# print(collide)
 
 	if collide:
 
