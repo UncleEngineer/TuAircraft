@@ -18,7 +18,7 @@ pygame.mixer.music.play(-1) # -1 is loop
 explosion = pygame.mixer.Sound(os.path.join(PATH,'explosion.wav'))
 laser = pygame.mixer.Sound(os.path.join(PATH,'laser.wav'))
 powerup = pygame.mixer.Sound(os.path.join(PATH,'powerup.wav'))
-gameover = pygame.mixer.Sound(os.path.join(PATH,'gameover.wav'))
+gameover = pygame.mixer.Sound(os.path.join(PATH,'pattho.wav'))
 sound_state = True 
 
 
